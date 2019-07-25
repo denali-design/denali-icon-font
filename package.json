@@ -1,0 +1,17 @@
+{
+  "name": "gulp-icons",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "iconfont": "gulp iconfont"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-consolidate": "^0.1.2",
+    "gulp-iconfont": "^5.0.1",
+    "gulp-zip": "^4.2.0",
+    "gulp-image": "^4.4.1",
+    "underscore": "^1.8.3"
+  }
+}

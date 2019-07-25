@@ -1,0 +1,199 @@
+/* Copyright 2019, Oath Inc. */
+/* Licensed under the terms of the MIT license. See LICENSE file in project root for terms. */
+
+
+* {
+  scroll-behavior: smooth;
+}
+.row {
+  flex-wrap: wrap;
+}
+
+/* Pape Styles */
+.intro-copy {
+  max-width: 650px;
+}
+.list {
+  justify-content: space-between;
+}
+.list > li {
+  margin-bottom: 6px;
+}
+
+.toggle ul li a {
+  padding-top: 6.5px;
+  padding-bottom: 6.5px;
+}
+.icon-box {
+  position: relative;
+  margin: 0px;
+  min-width: 136px;
+  text-align: center;
+  padding: 24px 18px;
+  border-radius: 8px;
+  transition: 300ms;
+  color: #303030;
+}
+.icon-box:hover {
+  background: #F5F8FE;
+  transition: 300ms;
+  color: #303030;
+}
+.icon-box > span {
+  pointer-events: none;
+}
+.icon-box > h6 {
+  margin: 0px auto;
+  width: 100px;
+  height: 25px;
+  padding-top: 6px;
+  font-size: 10px;
+  color: #9a9a9a;
+  pointer-events: none;
+}
+
+/* Download Area */
+.download-container {
+  background-color: #fff;
+  width: calc(100% - 20px);
+  position: fixed;
+  bottom: -310px;
+  transition: 250ms ease-in-out;
+  box-shadow: 0px -4px 8px rgba(0,0,0,.16);
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  /* height: 296px; */
+  align-items: flex-start;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin: 0px 10px;
+  max-width: 1080px;
+}
+.download-container > h4 {
+  width: 310px;
+  margin: 0px;
+  margin-bottom: 20px;
+  transition: 300ms;
+}
+
+.download-container > h4 > .d-icon {
+  font-size: 24px
+  margin-right: 10px;
+}
+.download-container > a.close {
+  position: absolute;
+  margin-top: 0px;
+  right: calc(20px);
+}
+.show {
+  bottom: 0px;
+  pointer-events: auto;
+  transition: 250ms ease-in-out;
+}
+.download-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+.download-buttons > .button {
+  display: none;
+  flex: 1;
+}
+.download-buttons > .input {
+  width: 100%;
+  flex: 2;
+}
+.subnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px auto 0px auto;
+  width: 390px;
+  height: 60px;
+  padding: 0px 20px;
+  position: fixed;
+  background: white;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-195px);
+  transition: 300ms;
+}
+label.switch > span.label {
+  font-size: 16px;
+}
+
+@media (min-width: 600px) {
+  .container, .subnav {
+    width: 520px;
+  }
+  .subnav {
+    transform: translateX(-260px);
+  }
+  .download-container > a.close {
+    right: 20px;
+  }
+  .download-container > .download-buttons{
+    flex-direction: row;
+    align-items: center;
+  }
+  .download-container > .download-buttons > *:first-child{
+    margin-left: 0px;
+  }
+  .download-container > .download-buttons > *:last-child{
+    margin-right: 0px;
+  }
+  .download-container > .download-buttons > *{
+    margin: 0px 10px;
+  }
+  .download-container > .download-buttons > .button{
+    display: flex;
+    white-space: nowrap;
+  }
+}
+@media (min-width: 900px) {
+  .container, .subnav {
+    width: 780px;
+  }
+  .subnav {
+    transform: translateX(-390px);
+  }
+  .download-container {
+    width: calc(100% - 300px - 60px);
+    right: 30px;
+    margin: 0px;
+  }
+  .download-container > h4 {
+    font-size: 20px !important;
+  }
+  .download-container > h4 > .d-icon {
+    font-size: 36px;
+  }
+}
+@media (min-width: 1200px) {
+  .container, .subnav {
+    width: 1040px;
+  }
+  .subnav {
+    transform: translateX(-520px);
+  }
+  .download-container > .download-buttons > .input{
+    flex: 3;
+  }
+}
+
+/* New Chip */
+
+.new::after {
+  position: absolute;
+  content: "New";
+  background: #d7e2fd;
+  color: #3570f4;
+  border-radius: 4px;
+  margin-left: -12px;
+  margin-top: -18px;
+  padding: 1px 4px;
+  font-size: 12px;
+  font-weight: bold;
+}

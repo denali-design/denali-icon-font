@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>apps</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+      <rect width="48" height="48" fill="none"/>
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2">
+      <g>
+        <rect x="4" y="4" width="12" height="12" rx="2" ry="2"/>
+        <rect x="18" y="4" width="12" height="12" rx="2" ry="2"/>
+        <rect x="32" y="4" width="12" height="12" rx="2" ry="2"/>
+        <rect x="4" y="18" width="12" height="12" rx="2" ry="2"/>
+        <rect x="18" y="18" width="12" height="12" rx="2" ry="2"/>
+        <rect x="32" y="18" width="12" height="12" rx="2" ry="2"/>
+        <rect x="4" y="32" width="12" height="12" rx="2" ry="2"/>
+        <rect x="18" y="32" width="12" height="12" rx="2" ry="2"/>
+        <rect x="32" y="32" width="12" height="12" rx="2" ry="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
