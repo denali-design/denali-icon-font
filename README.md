@@ -5,20 +5,20 @@
 <!-- ![build](https://img.shields.io/badge/build-1.2.3-brightgreen.svg) -->
 
 ## Table of contents
-- [Background]()
-- [Install]()
-- [Usage]()
-- [Browser support]()
-- [Versioning]()
-- [Contribute]()
-- [License]()
+- [Background](#background)
+- [Install](#install)
+- [Usage](#usage)
+- [Browser Support](#browser-support)
+- [Versioning](#versioning)
+- [Contribute](#contribute)
+- [License](#license)
 
 ---
 
 ## Background
 The Denali Icon Font was created specifically to service engineering and data based products. The icon family covers a wide variety of topics including localization, security authorization, and data visualization. While the family is ideal for use with engineering and data products, it also includes generic icons that can be utilized by any product such as UI controls and navigation. For flexibility, all icons in the family are available in solid and outline styles and can be implemented as png, svg, or font.
 
-To view the icon family visit our icon [site]().
+To view the icon family visit our icon [site](https://denali-design.github.io/denali-icon-font/dist/).
 
 ## Install
 
@@ -63,7 +63,7 @@ You should be prompted with a success message. New files are now available in th
 -  **Safari** on iOS and macOS
 
 ## Versioning
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the tags on this [repository]().
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the tags on this [repository](https://github.com/denali-design/denali-icon-font/tags).
 
 ## Contribute
 To start contributing to Denali, have a look at our guidelines, as well as pointers on where to start making changes, in our [contributing guide](CONTRIBUTE.md).
