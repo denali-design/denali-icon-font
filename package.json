@@ -1,11 +1,19 @@
 {
-  "name": "gulp-icons",
-  "version": "1.0.0",
-  "description": "",
+  "name": "denali-icon-font",
+  "version": "1.1.0",
+  "author": "Chas Turansky",
+  "description": "Denali CSS Framework",
+  "private": false,
+  "license": "OFL",
   "scripts": {
+    "test": "echo 'ok'",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "iconfont": "gulp iconfont"
   },
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:denali-design/denali-icon-font.git"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-consolidate": "^0.1.2",
@@ -13,5 +21,11 @@
     "gulp-zip": "^4.2.0",
     "gulp-image": "^4.4.1",
     "underscore": "^1.8.3"
+  },
+  "release": {
+    "debug": false,
+    "verifyConditions": {
+      "path": "./node_modules/semantic-release/src/lib/plugin-noop.js"
+    }
   }
 }
