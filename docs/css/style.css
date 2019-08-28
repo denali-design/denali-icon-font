@@ -197,3 +197,15 @@ label.switch > span.label {
   font-size: 12px;
   font-weight: bold;
 }
+
+/* Content */
+
+#content {
+  height:calc(100vh - 136px);
+}
+
+@media (max-width: 480px) {
+  #content {
+    height:calc(100vh - 355px);
+  }
+}
