@@ -27,12 +27,26 @@ New:
 - accessibility-hearing
 - accessibility-solid
 - accessibility
-- accessibility-wheelchair-solid
-- accessibility-wheelchair
+- accessible-solid
+- accessible
 - close-caption-solid
 - close-caption
 - subtitles-solid
 - subtitles
+- accessibility-assisted-listening-solid
+- accessibility-assisted-listening
+- accessibility-cognitive-disability-solid
+- accessibility-cognitive-disability
+- accessibility-deaf-solid
+- accessibility-deaf
+- accessibility-sign-language-solid
+- accessibility-sign-language
+- accessible-forward-solid
+- accessible-forward
+- audio-description-solid
+- audio-description
+- open-caption-solid
+- open-caption
 
 #### ARROWS
 
@@ -210,3 +224,14 @@ New:
 - sports-tennis
 - sports-volleyball-solid
 - sports-volleyball
+
+#### BRANDS
+
+New:
+
+- splunk
+
+Removed:
+
+- oath-colon
+- slack (Old Version)

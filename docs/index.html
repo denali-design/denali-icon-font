@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Icon Font</title>
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="images/favicon-16x16.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      href="images/favicon-32x32.png"
+      type="image/png"
+      sizes="32x32"
+    />
+    <!-- Sharing Meta Tags -->
+    <meta property="og:title" content="Denali Icon Font" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="Denali Icon Font" />
+    <!-- Denali CSS & Icons -->
+    <link rel="stylesheet" href="css/denali.css" />
+    <link rel="stylesheet" href="../dist/denali-icon-font.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Icon categories -->
+    <script src="js/denali-icon-categories.js" charset="utf-8"></script>
+    <script src="js/denali-icon-new.js" charset="utf-8"></script>
+
+    <style media="screen">
+      .sub-menu {
+        background: white;
+        z-index: 0;
+        transition: 300ms;
+      }
+      .w-full {
+        width: 100%;
+      }
+      @media (max-width: 899px) {
+        .tablet-down-hide {
+          display: none;
+        }
+      }
+      @media (max-width: 599px) {
+        .row {
+          flex-direction: row;
+          flex: auto;
+        }
+        .row > .icon-box {
+          flex: auto;
+        }
+      }
+      @media (max-width: 480px) {
+        .sub-menu > .toggle {
+          margin-top: 10px;
+        }
+        .sub-menu > .input {
+          margin-right: 0px;
+          width: 100%;
+        }
+      }
+      .has-shadow {
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+        transition: 300ms;
+      }
+      .tabs.is-primary.is-vertical {
+        z-index: 10;
+      }
+      .items-center {
+        align-items: center;
+      }
+      #noResults {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body class="denali-default-theme" onload="newIconChips()">
+    <nav class="nav">
+      <div class="nav-left">
+        <a onclick="toggleTabsLeft()" class="nav-icon hide-small-desktop-up"><i class="d-icon d-menu-hamburger"></i></a>
+        <a href="#introduction" class="nav-brand"><img src="images/denali-logo.svg" alt="To top of page"/></a>
+        <span class="chips is-small is-bold is-grey-100 has-bg-brand-400 hide-tablet-down m-l-10">Icon Font</span>
+      </div>
+
+      <div class="nav-right hide-small-desktop-up">
+        <a href="https://denali-design.slack.com/app_redirect?channel=general" target="_blank" class="nav-icon">
+          <i class="d-icon d-slack"></i>
+        </a>
+        <a href="https://github.com/denali-design" target="_blank" class="nav-icon">
+          <i class="d-icon d-github"></i>
+        </a>
+        <div class="menu is-right">
+          <a class="nav-icon menu-trigger"><i class="d-icon d-help-circle"></i></a>
+          <div class="menu-content">
+            <a href="https://github.com/denali-design/denali-site/issues/new?labels=feature-request" target="_blank">Feature Requests</a>
+            <a href="https://github.com/denali-design/denali-site/milestones" target="_blank">Roadmap</a>
+          </div>
+        </div>
+      </div>
+
+      <a class="nav-icon nav-toggle-dropdown"><i class="d-icon d-more-vertical"></i></a>
+      <div class="nav-right responsive">
+        <div class="nav-group">
+          <div class="menu">
+            <a class="nav-item menu-trigger" tabindex="0">Styleguide<i class="d-icon d-arrowhead-down is-small is-sub"></i></a>
+            <div class="menu-content">
+              <a href="https://denali-design.github.io/denali-site/">Denali Home</a>
+              <hr>
+              <a href="https://denali-design.github.io/denali-site/documentation/get-started">Documentation</a>
+              <a href="https://denali-design.github.io/denali-site/principles/introduction">Principles</a>
+              <a href="https://denali-design.github.io/denali-site/resource-downloads">Resources</a>
+            </div>
+          </div>
+          <div class="menu">
+            <a class="nav-item menu-trigger" tabindex="0">Components<i class="d-icon d-arrowhead-down is-small is-sub"></i></a>
+            <div class="menu-content">
+              <h5 class="upper is-grey-600">Frameworks</h5>
+              <a href="https://denali-design.github.io/denali-css/docs/">CSS</a>
+              <hr>
+              <a href="https://denali-design.github.io/denali-site/documentation/components/alerts">Component Docs</a>
+            </div>
+          </div>
+          <div class="menu">
+            <a class="nav-item menu-trigger is-inverse" tabindex="0">Icons<i class="d-icon d-arrowhead-down is-small is-sub"></i></a>
+            <div class="menu-content">
+              <h5 class="upper is-grey-600">Frameworks</h5>
+              <a class="is-bold is-grey-800" href="#">CSS</a>
+              <hr>
+              <a href="https://denali-design.github.io/denali-site/documentation/aesthetics/icons">Icon Docs</a>
+            </div>
+          </div>
+
+
+          <a href="https://denali-design.slack.com/app_redirect?channel=general" target="_blank" class="nav-icon hide-tablet-down">
+            <i class="d-icon d-slack"></i>
+          </a>
+          <a href="https://github.com/denali-design" target="_blank" class="nav-icon hide-tablet-down">
+            <i class="d-icon d-github"></i>
+          </a>
+          <div class="menu is-right">
+            <a class="nav-icon menu-trigger hide-tablet-down"><i class="d-icon d-help-circle"></i></a>
+            <div class="menu-content">
+              <a href="https://github.com/denali-design/denali-site/issues/new?labels=feature-request" target="_blank">Feature Requests</a>
+              <a href="https://github.com/denali-design/denali-site/milestones" target="_blank">Roadmap</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="flex h-minus-nav">
+      <div
+        id="toggleTabsLeft"
+        class="tabs is-primary is-vertical tablet-down-hide-left"
+      >
+        <ul id="navLinks">
+          <li><a href="#introduction" class="is-active">Introduction</a></li>
+          <li><a href="#alerts">Alerts & Notifications</a></li>
+          <li><a href="#accessibility">Accessibility</a></li>
+          <li><a href="#arrows">Arrows & Actions</a></li>
+          <li><a href="#device">AV Device Technology</a></li>
+          <li><a href="#control">Control & Navigation</a></li>
+          <li><a href="#data">Data & Platform</a></li>
+          <li><a href="#events">Event & Location</a></li>
+          <li><a href="#fileContent">File & Content</a></li>
+          <li><a href="#security">Security & Access</a></li>
+          <li><a href="#sports">Sports</a></li>
+          <li><a href="#others">Other</a></li>
+          <li><a href="#brands">Brands & Third Party</a></li>
+        </ul>
+      </div>
+
+      <div id="container" class="flex-auto">
+        <div class="container-fluid has-bg-grey-100" id="subMenu">
+          <div class="sub-menu row p-y-20 w-full items-center">
+            <div class="input has-icon-back m-r-30">
+              <input
+                id="search"
+                type="text"
+                placeholder="Search Icons"
+                autocomplete="off"
+              /><span class="d-icon d-search is-brand-700"></span>
+            </div>
+            <div class="toggle">
+              <ul>
+                <li
+                  onclick="outlineIcons()"
+                  id="outlineButton"
+                  class="is-active"
+                >
+                  <a>Outlines</a>
+                </li>
+                <li onclick="solidIcons()" id="solidButton"><a>Solids</a></li>
+              </ul>
+            </div>
+            <!--
+              <a onclick="lightToggle()" class="m-l-2"><i class="d-icon d-sun" id="lightSwitch"></i></a>
+            -->
+          </div>
+        </div>
+
+        <div
+          id="content"
+          class="overflow-y-auto"
+          style="height:calc(100vh - 136px);"
+        >
+          <div id="introduction" class="container-fluid  m-b-0">
+            <div class="flex space-between">
+              <div class="m-r-40">
+                <h2>Icons</h2>
+                <p class="intro-copy m-t-10 m-b-0">
+                  The Denali icon library has been carefully crafted to ensure a
+                  coherent and unified UI. We recommend checking this page
+                  frequently as we are always adding to our icon library. To
+                  access icons in the Denali icon library use the
+                  <span class="chips has-bg-grey-300 is-red-500 is-mono"
+                    >.d-icons</span
+                  >
+                  class followed by the
+                  <span class="chips has-bg-grey-300 is-red-500 is-mono"
+                    >.d-$name</span
+                  >
+                  that specifies the icon you would like to use.
+                </p>
+                <p class="m-t-10" id="iconTotal"></p>
+              </div>
+              <ul class="list tablet-down-hide">
+                <li class="is-grey-600 upper font-12">Relevant Content</li>
+                <li>
+                  <a
+                    href="https://denali.design/denali-site/principles/icons"
+                    target="_blank"
+                    ><span class="d-icon d-principles-solid is-small"></span>
+                    Icon Principles</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://denali.design/denali-site/documentation/aesthetics/icons"
+                    target="_blank"
+                    ><span class="d-icon d-denali is-small"></span> Icon
+                    Documentation</a
+                  >
+                </li>
+                <li class="is-grey-600 upper font-12 m-t-2">Downloads</li>
+                <li>
+                  <a href="downloads/denali-icon-font.zip" download
+                    >Icon Fonts</a
+                  >
+                </li>
+                <li>
+                  <a href="downloads/denali-icon-svg.zip" download>All SVG</a>
+                </li>
+                <li>
+                  <a href="downloads/denali-icon-png.zip" download>All PNG</a>
+                </li>
+              </ul>
+            </div>
+            <hr />
+          </div>
+          <div id="noResults" class="container-fluid m-t-60 hide">
+            <h2>Can't find the icon you're looking for?</h2>
+            <p class="m-t-10">
+              Just make a
+              <a
+                href="https://github.com/denali-design/denali-icon-font/issues/new?labels=icon-request"
+                target="_blank"
+                >request</a
+              >
+              and we can help design one.
+            </p>
+          </div>
+          <div
+            id="iconContainer"
+            class="container-fluid"
+            style="margin-bottom: 160px;"
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="downloadModal" class="download-container">
+      <h4 id="iconName"></h4>
+      <div class="download-buttons" id="downloadGroup"></div>
+      <a onclick="hide()" class="close is-secondary"
+        ><i class="d-icon d-close"></i
+      ></a>
+    </div>
+
+    <!-- Jquery for hashchange -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
