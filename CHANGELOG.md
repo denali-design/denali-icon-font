@@ -157,6 +157,9 @@ New:
 - nodes-group-solid
 - nodes-group
 
+Name Changed:
+- chart-scatterplot from chart-data-set
+
 Updated:
 
 - dev-ops-solid
