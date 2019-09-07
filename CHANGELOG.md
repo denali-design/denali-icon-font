@@ -41,8 +41,6 @@ New:
 - accessibility-deaf
 - accessibility-sign-language-solid
 - accessibility-sign-language
-- accessible-forward-solid
-- accessible-forward
 - audio-description-solid
 - audio-description
 - open-caption-solid

@@ -34,7 +34,8 @@
   transition: 300ms;
   color: #303030;
 }
-.icon-box:hover {
+.icon-box:hover,
+.icon-box:focus {
   background: #F5F8FE;
   transition: 300ms;
   color: #303030;
