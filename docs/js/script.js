@@ -6,6 +6,12 @@ function toggleTabsLeft() {
   var toggleTabsLeft = document.getElementById("toggleTabsLeft");
   toggleTabsLeft.classList.toggle("tablet-down-toggle-tabs-left");
 }
+document.getElementById("toggleTab").addEventListener("keyup", function(event){
+  if (event.keyCode === 13) {
+    var toggleTabsLeft = document.getElementById("toggleTabsLeft");
+    toggleTabsLeft.classList.toggle('tablet-down-toggle-tabs-left');
+  }
+});
 
 // Nav Active Scroll
 var content = document.getElementById("content");
@@ -93,6 +99,11 @@ function solidIcons() {
   catalogIconBox();
   newIconChips();
 }
+document.getElementById("solidButton").addEventListener("keyup", function(event){
+  if (event.keyCode === 13) {
+    solidIcons();
+  }
+});
 
 function outlineIcons() {
   document.getElementById("iconContainer").innerHTML = iconOutlineList;
@@ -101,6 +112,11 @@ function outlineIcons() {
   catalogIconBox();
   newIconChips();
 }
+document.getElementById("outlineButton").addEventListener("keyup", function(event){
+  if (event.keyCode === 13) {
+    outlineIcons();
+  }
+});
 
 // Adding shadow on scroll
 document.getElementById("content").onscroll = function() {

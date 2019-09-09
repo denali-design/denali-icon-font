@@ -12,7 +12,6 @@ newIcons = [
   "accessibility-cognitive-disability",
   "accessibility-deaf",
   "accessibility-sign-language",
-  "accessible-forward",
   "audio-description",
   "open-caption",
   "close-caption",
