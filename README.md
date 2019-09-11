@@ -1,10 +1,12 @@
 # Denali Icon Font
 
 ![icon count](https://img.shields.io/badge/IconCount-886-lightgrey.svg) ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![slack](https://img.shields.io/badge/slack-Denali-3570f4.svg?cacheSeconds=2592000)
+
 <!-- ![npm](https://img.shields.io/badge/npm-1.2.3-red.svg) -->
 <!-- ![build](https://img.shields.io/badge/build-1.2.3-brightgreen.svg) -->
 
 ## Table of contents
+
 - [Background](#background)
 - [Install](#install)
 - [Usage](#usage)
@@ -16,13 +18,15 @@
 ---
 
 ## Background
+
 The Denali Icon Font was created specifically to service engineering and data based products. The icon family covers a wide variety of topics including localization, security authorization, and data visualization. While the family is ideal for use with engineering and data products, it also includes generic icons that can be utilized by any product such as UI controls and navigation. For flexibility, all icons in the family are available in solid and outline styles and can be implemented as png, svg, or font.
 
-To view the icon family visit our icon [site](https://denali-design.github.io/denali-icon-font/dist/).
+To view the icon family visit our icon [site](https://denali.design/denali-icon-font/dist/).
 
 ## Install
 
 #### Prerequisites
+
 You will need the following installed to run the site:
 
 1. [Gulp](https://gulpjs.com/)
@@ -31,19 +35,23 @@ You will need the following installed to run the site:
 > Note: This guide assumes you have the prerequisites installed locally and will not go over install instructions for them. Refer to their websites for guidance if necessary.
 
 #### Generating Icon Font
+
 After all prerequisites are installed follow these instructions to run a local version of this repository.
 
 Clone or download this repository:
+
 ```
 denali-system-language/denali-icons.git
 ```
 
 Use terminal or any command line tool and navigate to where you downloaded the repository.
+
 ```
 cd user/documents/git/denali-icons
 ```
 
 Use NPM to install packages.
+
 ```
 npm install
 ```
@@ -51,6 +59,7 @@ npm install
 #### Usage
 
 If icons were added use this to build a new icon font.
+
 ```
 gulp iconfont
 ```
@@ -58,22 +67,27 @@ gulp iconfont
 You should be prompted with a success message. New files are now available in the dist folder.
 
 ## Browser Support
--  **Chrome** on Android, Windows, macOS, and Linux
--  **Firefox** on Windows, macOS, and Linux
--  **Safari** on iOS and macOS
+
+- **Chrome** on Android, Windows, macOS, and Linux
+- **Firefox** on Windows, macOS, and Linux
+- **Safari** on iOS and macOS
 
 ## Versioning
+
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the tags on this [repository](https://github.com/denali-design/denali-icon-font/tags).
 
 ## Contribute
+
 To start contributing to Denali, have a look at our guidelines, as well as pointers on where to start making changes, in our [contributing guide](CONTRIBUTE.md).
 
 ## Maintainers
-- **Jay Torres** | *Dir Product Design for Core Platforms* (torresr@verizonmedia.com)
-- **Chris Esler** | *Principle Software Dev Engineer* (cesler@verizonmedia.com)
-- **Chas Turansky** | *Product Designer & Front-End Dev* (cturansky@verizonmedia.com)
-- **Jazmin Orozco** | *Product Designer* (jorozco@verizonmedia.com)
-- **Marco Sandoval** | *Product Designer* (msandoval@verizonmedia.com)
+
+- **Jay Torres** | _Dir Product Design for Core Platforms_ (torresr@verizonmedia.com)
+- **Chris Esler** | _Principle Software Dev Engineer_ (cesler@verizonmedia.com)
+- **Chas Turansky** | _Product Designer & Front-End Dev_ (cturansky@verizonmedia.com)
+- **Jazmin Orozco** | _Product Designer_ (jorozco@verizonmedia.com)
+- **Marco Sandoval** | _Product Designer_ (msandoval@verizonmedia.com)
 
 ## License
+
 Code licensed under the SIL Open Font license. See [LICENSE file](LICENESE.md) for terms.

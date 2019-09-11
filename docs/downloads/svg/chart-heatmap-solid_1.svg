@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>chart-heatmap-solid_1</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="invisible_box" data-name="invisible box">
+      <rect width="48" height="48" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons">
+      <g>
+        <path d="M42,40H8V6A2,2,0,0,0,4,6V44H42a2,2,0,0,0,0-4Z"/>
+        <rect x="11" y="30" width="6" height="6" rx="1"/>
+        <rect x="10" y="18" width="8" height="8" rx="1"/>
+        <rect x="34" y="18" width="8" height="8" rx="1"/>
+        <rect x="22" y="7" width="8" height="8" rx="1"/>
+        <rect x="21" y="28" width="10" height="10" rx="1"/>
+        <rect x="23" y="19" width="6" height="6" rx="1"/>
+        <rect x="36" y="31" width="4" height="4" rx="1"/>
+        <rect x="36" y="9" width="4" height="4" rx="1"/>
+        <rect x="12" y="9" width="4" height="4" rx="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
