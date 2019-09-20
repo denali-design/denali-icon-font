@@ -2,9 +2,6 @@
 
 ![icon count](https://img.shields.io/badge/IconCount-1006-lightgrey.svg) ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![slack](https://img.shields.io/badge/slack-Denali-3570f4.svg?cacheSeconds=2592000)
 
-<!-- ![npm](https://img.shields.io/badge/npm-1.2.3-red.svg) -->
-<!-- ![build](https://img.shields.io/badge/build-1.2.3-brightgreen.svg) -->
-
 ## Table of contents
 
 - [Background](#background)
