@@ -57,7 +57,7 @@ npm install
 
 If icons were added use this to build a new icon font.
 
-```
+```bash
 gulp iconfont
 ```
 
