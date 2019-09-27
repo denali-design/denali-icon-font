@@ -1,6 +1,6 @@
 # Denali Icon Font
 
-![icon count](https://img.shields.io/badge/IconCount-1006-lightgrey.svg) ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![slack](https://img.shields.io/badge/slack-Denali-3570f4.svg?cacheSeconds=2592000)
+[![Version][npm-image]][npm-url][![Build Status][status-image]][status-url]![icon count](https://img.shields.io/badge/IconCount-1006-lightgrey.svg) ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![slack](https://img.shields.io/badge/slack-Denali-3570f4.svg?cacheSeconds=2592000)
 
 ## Table of contents
 
@@ -88,3 +88,8 @@ To start contributing to Denali, have a look at our guidelines, as well as point
 ## License
 
 Code licensed under the SIL Open Font license. See [LICENSE file](LICENESE.md) for terms.
+
+[npm-image]: https://img.shields.io/npm/v/denali-icon-font.svg
+[npm-url]: https://npmjs.org/package/denali-icon-font
+[status-image]: https://cd.screwdriver.cd/pipelines/3068/badge
+[status-url]: https://cd.screwdriver.cd/pipelines/3068
