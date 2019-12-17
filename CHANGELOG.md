@@ -1,11 +1,36 @@
 # Changelog
 
+## v1.2.0 - Dec. 17 2019
+
+#### ALERTS
+New:
+- exclamation-point-solid
+- exclamation-point
+- expire-solid
+- expire
+
+#### BRANDS
+New:
+- medium
+- npm
+
+#### DATA
+New:
+- tree-structure-solid
+- tree-structure
+
+#### OTHER
+New:
+- dark-mode-solid
+- dark-mode
+
+---
+
 ## v1.1.0 - Aug. 23 2019
 
 #### ALERTS
 
 New:
-
 - time-stopwatch-solid
 - time-stopwatch
 - time-lock-solid
@@ -16,7 +41,6 @@ New:
 #### ACCESSIBILITY
 
 New:
-
 - accessibility-blind-solid
 - accessibility-blind
 - accessibility-braille-solid

@@ -6,8 +6,10 @@ iconCategories = [
     name: "Alerts & Notifications",
     id: "alerts",
     icons: [
-      "notification",
       "escalate",
+      "exclamation-point",
+      "expire",
+      "notification",
       "notification-add",
       "notification-disable",
       "notification-minus",
@@ -343,7 +345,8 @@ iconCategories = [
       "nodes-group",
       "pipeline",
       "queue",
-      "reroute"
+      "reroute",
+      "tree-structure"
     ]
   },
   {
@@ -500,6 +503,7 @@ iconCategories = [
       "currency-euro",
       "currency-revenue",
       "currency-yen",
+      "dark-mode",
       "diamond",
       "flask",
       "flower",
@@ -581,7 +585,9 @@ iconCategories = [
       "jira",
       "jive",
       "linkedin",
+      "medium",
       "node-js",
+      "npm",
       "okta",
       "openstack",
       "opsgenie",
