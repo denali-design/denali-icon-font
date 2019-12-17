@@ -296,3 +296,9 @@ document.getElementById("iconTotal").innerHTML =
   "<strong>Total Icons:</strong> " + countTotal + "</h5>";
 
 // var count = Object.keys(iconCategories).length;
+
+
+function darkMode() {
+   var element = document.getElementsByTagName("BODY")[0];
+   element.classList.toggle("denali-dark-theme");
+}
