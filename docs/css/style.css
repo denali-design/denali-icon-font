@@ -40,6 +40,17 @@
   transition: 300ms;
   color: #303030;
 }
+
+.denali-dark-theme .icon-box:hover,
+.denali-dark-theme .icon-box:focus {
+  background: #1E242A;
+}
+
+.denali-dark-theme .chips.has-bg-grey-300 {
+  background: #1E242A !important;
+  color: #e94141 !important;
+}
+
 .icon-box > span {
   pointer-events: none;
 }
@@ -70,6 +81,10 @@
   border-top-right-radius: 8px;
   margin: 0px 10px;
   max-width: 1080px;
+}
+
+.denali-dark-theme .download-container {
+  background: #1E2429;
 }
 .download-container > h4 {
   width: 310px;
@@ -106,6 +121,7 @@
   width: 100%;
   flex: 2;
 }
+
 .subnav {
   display: flex;
   justify-content: space-between;
@@ -115,12 +131,16 @@
   height: 60px;
   padding: 0px 20px;
   position: fixed;
-  background: white;
   top: 0px;
   left: 50%;
   transform: translateX(-195px);
   transition: 300ms;
 }
+
+.denali-dark-theme #subMenu {
+  background: #12191F !important;
+}
+
 label.switch > span.label {
   font-size: 16px;
 }

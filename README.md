@@ -1,6 +1,10 @@
 # Denali Icon Font
 
-[![Version][npm-image]][npm-url][![Build Status][status-image]][status-url]![icon count](https://img.shields.io/badge/IconCount-1006-lightgrey.svg) ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![slack](https://img.shields.io/badge/slack-Denali-3570f4.svg?cacheSeconds=2592000)
+[![npm](https://img.shields.io/npm/v/denali-icon-font?color=red)](https://www.npmjs.com/package/denali-icon-font)
+[![Build Status][status-image]][status-url]
+![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hm/denali-design/denali-icon-font)
+![slack](https://img.shields.io/badge/slack-Denali-3570f4.svg?cacheSeconds=2592000)
+[![GitHub](https://img.shields.io/github/license/denali-design/denali-css)](https://github.com/denali-design/denali-css/blob/master/LICENSE.md)
 
 ## Table of contents
 
@@ -44,7 +48,7 @@ denali-system-language/denali-icons.git
 Use terminal or any command line tool and navigate to where you downloaded the repository.
 
 ```
-cd user/documents/git/denali-icons
+cd user/documents/git/denali-icon-font
 ```
 
 Use NPM to install packages.
@@ -55,9 +59,9 @@ npm install
 
 #### Usage
 
-If icons were added use this to build a new icon font.
+If icons were added use this to build a new icon font navigate to where you downloaded the repository and run this gulp command.
 
-```bash
+```
 gulp iconfont
 ```
 
