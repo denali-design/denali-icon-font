@@ -48,7 +48,7 @@ gulp.task("iconfont", function() {
 
       gulp
         .src("dist/*")
-        .pipe(zip("denali-icon-fonts.zip"))
+        .pipe(zip("denali-icon-font.zip"))
         .pipe(gulp.dest("docs/downloads"));
 
       // gulp.src('build/svg/*')
