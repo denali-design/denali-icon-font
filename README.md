@@ -22,7 +22,7 @@
 
 The Denali Icon Font was created specifically to service engineering and data based products. The icon family covers a wide variety of topics including localization, security authorization, and data visualization. While the family is ideal for use with engineering and data products, it also includes generic icons that can be utilized by any product such as UI controls and navigation. For flexibility, all icons in the family are available in solid and outline styles and can be implemented as png, svg, or font.
 
-To view the icon family visit our icon [site](https://denali.design/denali-icon-font/docs/).
+To view the icon family visit our icon [site](https://denali-design.github.io/denali-icon-font/docs/).
 
 ## Install
 
