@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.4.0 - Mar. 24 2020
+## v1.3.0 - Mar. 24 2020
 
 #### Device Technology
 New:
