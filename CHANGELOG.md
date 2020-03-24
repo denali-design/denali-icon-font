@@ -1,5 +1,38 @@
 # Changelog
 
+## v1.4.0 - Mar. 24 2020
+
+#### Device Technology
+New:
+- battery-charging-solid
+- battery-charging
+- battery-empty-solid
+- battery-empty
+- battery-full-solid
+- battery-full
+- battery-half-solid
+- battery-half
+- battery-low-solid
+- battery-low
+
+#### Control & Navigation
+New: 
+- filter-add-solid
+- filter-add
+- filter-remove-solid
+- filter-remove
+- search-job-solid
+- search-job
+- search-money-solid
+- search-money
+
+#### Other
+New:
+- specs-solid
+- specs
+
+---
+
 ## v1.2.0 - Dec. 17 2019
 
 #### ALERTS
