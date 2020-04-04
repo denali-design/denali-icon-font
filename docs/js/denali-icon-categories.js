@@ -224,6 +224,7 @@ iconCategories = [
       "filter-vertical",
       "filter-add",
       "filter-remove",
+      "filter-funnel",
       "flag",
       "grid",
       "group",
