@@ -275,6 +275,8 @@ var countNine = iconCategories[8].icons.length;
 var countTen = iconCategories[9].icons.length;
 var countEleven = iconCategories[10].icons.length;
 var countTwelve = iconCategories[11].icons.length;
+var countThirteen = iconCategories[12].icons.length;
+var countFourteen = iconCategories[13].icons.length;
 
 var countTotal =
   countOne * 2 +
@@ -288,7 +290,9 @@ var countTotal =
   countNine * 2 +
   countTen * 2 +
   countEleven * 2 +
-  countTwelve;
+  countTwelve * 2 +
+  countThirteen * 2 +
+  countFourteen;
 
 console.log(countTotal);
 

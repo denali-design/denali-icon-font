@@ -1,5 +1,74 @@
 # Changelog
 
+## v1.4.0 - Apr. 4 2020
+
+#### Device Technology
+New:
+- laptop-in-house
+- qr-code
+- scan
+
+#### Healthcare
+New:
+- ambulance
+- biohazard
+- coronavirus
+- dna
+- faucet
+- first-aid-kit
+- hands-clean
+- hands-medical
+- hands-wash
+- hands-with-water
+- hospital-symbol
+- hospital
+- lungs-virus
+- lungs
+- medical-clinic
+- microscope
+- monitoring-health
+- people-distance
+- sink
+- soap
+- stethoscope
+- syringe
+- tissue
+- user-cough
+- user-doctor
+- user-in-hospital
+- user-in-house
+- user-mask
+- user-nurse
+- user-virus
+- virus-none
+- virus
+- viruses
+
+#### Horoscope
+New:
+- horoscope-aquarius
+- horoscope-aries
+- horoscope-cancer
+- horoscope-capricorn
+- horoscope-gemini
+- horoscope-leo
+- horoscope-libra
+- horoscope-pisces
+- horoscope-sagittarius
+- horoscope-scorpio
+- horoscope-taurus
+- horoscope-virgo
+
+#### Other
+New: 
+- airplane-slash
+- airplane
+- handshake-slash
+- handshake
+- store-close
+- store
+
+
 ## v1.3.0 - Mar. 24 2020
 
 #### Device Technology
