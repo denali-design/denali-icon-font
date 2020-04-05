@@ -1,17 +1,6 @@
 # Changelog
 
-## v1.4.1 - Apr. 5 2020
-
-#### Healthcare
-Name Changed:
-- thermometer to temperature 
-
-#### Horoscope
-Removed:
-- horoscope
-
-
-## v1.4.0 - Apr. 4 2020
+## v1.4.0 - Apr. 5 2020
 
 #### Device Technology
 New:
@@ -20,6 +9,9 @@ New:
 - scan
 
 #### Healthcare
+Name Changed:
+- thermometer to temperature 
+
 New:
 - ambulance
 - biohazard
@@ -56,6 +48,9 @@ New:
 - viruses
 
 #### Horoscope
+Removed:
+- horoscope
+
 New:
 - horoscope-aquarius
 - horoscope-aries
