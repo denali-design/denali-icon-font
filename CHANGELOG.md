@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.4.1 - Apr. 5 2020
+
+#### Healthcare
+Name Changed:
+- thermometer to temperature 
+
+#### Horoscope
+Removed:
+- horoscope
+
+
 ## v1.4.0 - Apr. 4 2020
 
 #### Device Technology
@@ -100,7 +111,6 @@ New:
 - specs-solid
 - specs
 
----
 
 ## v1.2.0 - Dec. 17 2019
 
@@ -126,7 +136,6 @@ New:
 - dark-mode-solid
 - dark-mode
 
----
 
 ## v1.1.0 - Aug. 23 2019
 
@@ -175,7 +184,6 @@ New:
 #### ARROWS
 
 New:
-
 - cursor-arrow-solid
 - cursor-arrow
 - cursor-pointer-solid
@@ -192,12 +200,10 @@ New:
 - skip-previous
 
 Name Change:
-
 - undo-solid from refresh-solid
 - undo from refresh
 
 Updated:
-
 - refresh-setting-solid
 - refresh-setting
 - page-first-solid
@@ -208,7 +214,6 @@ Updated:
 #### CONTENT
 
 New:
-
 - copy-file-solid
 - copy-file
 - table-column-solid
@@ -217,7 +222,6 @@ New:
 - table-row
 
 Updated:
-
 - assignment-check-solid
 - assignment-check
 - assignment-priority-solid
@@ -230,7 +234,6 @@ Updated:
 #### CONTROLS
 
 New:
-
 - apps-large-solid
 - apps-large
 - mail-new-solid
@@ -245,12 +248,10 @@ New:
 - tag-unlock
 
 Name Changed:
-
 - apps-small-solid from apps-solid
 - apps-small from apps
 
 Updated:
-
 - zoom-in-solid
 - zoom-in
 - zoom-out-solid
@@ -259,7 +260,6 @@ Updated:
 #### DATA
 
 New:
-
 - chart-big-number-solid
 - chart-big-number
 - chart-heatmap-solid

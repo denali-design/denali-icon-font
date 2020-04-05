@@ -476,6 +476,7 @@ iconCategories = [
       "soap",
       "stethoscope",
       "syringe",
+      "temperature",
       "tissue",
       "user-cough",
       "user-doctor",
@@ -493,7 +494,6 @@ iconCategories = [
     name: "Horoscope",
     id: "horoscope",
     icons: [
-      "horoscope",
       "horoscope-aquarius",
       "horoscope-aries",
       "horoscope-cancer",
@@ -620,7 +620,6 @@ iconCategories = [
       "processing",
       "snowflake",
       "spring",
-      "thermometer",
       "value-all",
       "value-average",
       "value-exclude",
