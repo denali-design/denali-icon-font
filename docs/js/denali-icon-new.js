@@ -117,5 +117,9 @@ newIcons = [
   "horoscope-taurus",
   "horoscope-virgo-solid",
   "horoscope-virgo",
-  "face-id"
+  "face-id",
+  "plug-connect",
+  "plug-outlet",
+  "plug-power",
+  "voltage"
 ];
