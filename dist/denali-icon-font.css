@@ -5,11 +5,11 @@
 /* denali-icon-font Webfont */
 @font-face {
  font-family: 'denali-icon-font';
- src: url('denali-icon-font.eot?1586117422030');
- src: url('denali-icon-font.eot?#iefix-1586117422030') format('embedded-opentype'),
-  url('denali-icon-font.svg?1586117422030') format('svg'),
-  url('denali-icon-font.woff?1586117422030') format('woff'),
-  url('denali-icon-font.ttf?1586117422030') format('truetype');
+ src: url('denali-icon-font.eot?1586285317730');
+ src: url('denali-icon-font.eot?#iefix-1586285317730') format('embedded-opentype'),
+  url('denali-icon-font.svg?1586285317730') format('svg'),
+  url('denali-icon-font.woff?1586285317730') format('woff'),
+  url('denali-icon-font.ttf?1586285317730') format('truetype');
  font-weight: normal;
  font-style: normal;
 }
@@ -4569,7 +4569,7 @@
  content: '\ee69';
 }
 
-.d-voltage-outlet:before {
+.d-voltage-solid:before {
  content: '\ee6a';
 }
 
