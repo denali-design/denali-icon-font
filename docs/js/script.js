@@ -306,3 +306,9 @@ function darkMode() {
    var element = document.getElementsByTagName("BODY")[0];
    element.classList.toggle("denali-dark-theme");
 }
+
+document.getElementById('navToggle').addEventListener("click", toggleMenu);
+
+function toggleMenu() {
+  document.getElementById('navMenuContent').classList.toggle("is-active");
+}
