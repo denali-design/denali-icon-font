@@ -91,7 +91,11 @@ To start contributing to Denali, have a look at our guidelines, as well as point
 
 ## License
 
-Code licensed under the SIL Open Font license. See [LICENSE file](LICENESE.md) for terms.
+Denali Icons offers a font file, svg icon files, png icon files, and demo page. Each file falls under a different license. Before using a particular file, please familiarize yourself with the associated license.
+
+1. Icon font - [SIL license](https://github.com/denali-design/denali-icon-font/licenses/SIL-OFL.md)
+2. SVG/PNG icons - [CC-BY 4.0](https://github.com/denali-design/denali-icon-font/licenses/CC-BY-4.0.md)
+3. Demo page - [MIT](https://github.com/denali-design/denali-icon-font/licenses/MIT.md)
 
 [npm-image]: https://img.shields.io/npm/v/denali-icon-font.svg
 [npm-url]: https://npmjs.org/package/denali-icon-font
