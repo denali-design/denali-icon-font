@@ -5,8 +5,9 @@
   "description": "Denali CSS Framework",
   "private": false,
   "license": "OFL",
+  "main": "index.js",
   "scripts": {
-    "test": "echo 'ok'",
+    "test": "mocha",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "iconfont": "gulp iconfont"
   },
@@ -20,6 +21,7 @@
     "gulp-iconfont": "^10.0.3",
     "gulp-image": "^5.1.0",
     "gulp-zip": "^4.2.0",
+    "mocha": "^7.2.0",
     "underscore": "^1.8.3"
   },
   "release": {
