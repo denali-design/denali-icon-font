@@ -1,5 +1,31 @@
 # Changelog
 
+## v1.5.0 - Jul. 29 2020
+
+#### Control & Navigation
+- align-object-top
+- align-object-center
+- align-object-bottom
+- align-object-righ
+- align-ojbect-left
+- align-object-vertical
+- align-object-horizontal
+- ascending-a-z
+- decending-z-a
+- tag-filter
+
+#### Healthcare
+- blood-test
+- eye-drop
+- germs
+- mask-ventilator
+- vials
+
+#### Other
+- ere
+
+---
+
 ## v1.4.0 - Apr. 5 2020
 
 #### Device Technology
@@ -74,6 +100,7 @@ New:
 - store-close
 - store
 
+---
 
 ## v1.3.0 - Mar. 24 2020
 

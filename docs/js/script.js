@@ -37,87 +37,6 @@ function activeScroll() {
 }
 content.addEventListener("scroll", activeScroll);
 
-// Icon Outlines
-var iconCategories,
-  i,
-  iconOutlineList = "",
-  iconSolidList = "";
-for (i in iconCategories) {
-  iconOutlineList += '<div class="p-t-3" id="' + iconCategories[i].id + '">';
-  iconOutlineList += '<h3 class="m-b-2">' + iconCategories[i].name + "</h3>";
-  iconOutlineList += '<div class="row">';
-  for (j in iconCategories[i].icons) {
-    iconOutlineList +=
-      '<a data-search-query="' +
-      iconCategories[i].icons[j] +
-      '" id="' +
-      iconCategories[i].icons[j] +
-      '" href="#' +
-      iconCategories[i].icons[j] +
-      '" class="icon-box flex flex-column is-secondary">';
-    iconOutlineList +=
-      '<span class="is-medium d-icon d-' +
-      iconCategories[i].icons[j] +
-      '"></span>';
-    iconOutlineList += "<h6>" + iconCategories[i].icons[j] + "</h6></a>";
-  }
-  iconOutlineList += "</div></div>";
-}
-// Icon Solids
-for (i in iconCategories) {
-  iconSolidList += '<div class="p-t-3" id="' + iconCategories[i].id + '">';
-  iconSolidList += '<h3 class="m-b-2">' + iconCategories[i].name + "</h3>";
-  iconSolidList += '<div class="row">';
-  for (j in iconCategories[i].icons) {
-    iconSolidList +=
-      '<a data-search-query="' +
-      iconCategories[i].icons[j] +
-      '-solid" id="' +
-      iconCategories[i].icons[j] +
-      '-solid" href="#' +
-      iconCategories[i].icons[j] +
-      '-solid" class="icon-box flex flex-column is-secondary">';
-    iconSolidList +=
-      '<span class="is-medium d-icon d-' +
-      iconCategories[i].icons[j] +
-      '-solid"></span>';
-    iconSolidList += "<h6>" + iconCategories[i].icons[j] + "-solid</h6></a>";
-  }
-  iconSolidList += "</div></div>";
-}
-
-// Load Outline Icons and Catalog list
-document.getElementById("iconContainer").innerHTML = iconOutlineList;
-catalogIconBox();
-
-// Toggle
-function solidIcons() {
-  document.getElementById("iconContainer").innerHTML = iconSolidList;
-  document.getElementById("solidButton").classList.add("is-active");
-  document.getElementById("outlineButton").classList.remove("is-active");
-  document.getElementById("brands").style.display = "none";
-  catalogIconBox();
-  newIconChips();
-}
-document.getElementById("solidButton").addEventListener("keyup", function(event){
-  if (event.keyCode === 13) {
-    solidIcons();
-  }
-});
-
-function outlineIcons() {
-  document.getElementById("iconContainer").innerHTML = iconOutlineList;
-  document.getElementById("outlineButton").classList.add("is-active");
-  document.getElementById("solidButton").classList.remove("is-active");
-  catalogIconBox();
-  newIconChips();
-}
-document.getElementById("outlineButton").addEventListener("keyup", function(event){
-  if (event.keyCode === 13) {
-    outlineIcons();
-  }
-});
-
 // Adding shadow on scroll
 document.getElementById("content").onscroll = function() {
   shadowScroll();
@@ -133,22 +52,138 @@ function shadowScroll() {
   }
 }
 
-// Catalog icons wit class name of icon box
-function catalogIconBox() {
-  // Event listener for icon boxes
-  var classname = document.getElementsByClassName("icon-box");
-  for (var i = 0; i < classname.length; i++) {
-    classname[i].addEventListener("click", myFunction, false);
+// Dark Theme
+function darkMode() {
+  var element = document.getElementsByTagName("BODY")[0];
+  element.classList.toggle("denali-dark-theme");
+}
+
+// Toggle Navbar Menu Right
+document.getElementById('navToggle').addEventListener("click", toggleMenu);
+function toggleMenu() {
+ document.getElementById('navMenuContent').classList.toggle("is-active");
+}
+
+// Icon number count
+var countOne = iconCategories[0].icons.length;
+var countTwo = iconCategories[1].icons.length;
+var countThree = iconCategories[2].icons.length;
+var countFour = iconCategories[3].icons.length;
+var countFive = iconCategories[4].icons.length;
+var countSix = iconCategories[5].icons.length;
+var countSeven = iconCategories[6].icons.length;
+var countEight = iconCategories[7].icons.length;
+var countNine = iconCategories[8].icons.length;
+var countTen = iconCategories[9].icons.length;
+var countEleven = iconCategories[10].icons.length;
+var countTwelve = iconCategories[11].icons.length;
+var countThirteen = iconCategories[12].icons.length;
+var countFourteen = iconCategories[13].icons.length;
+
+var countTotal =
+  countOne * 2 +
+  countTwo * 2 +
+  countThree * 2 +
+  countFour * 2 +
+  countFive * 2 +
+  countSix * 2 +
+  countSeven * 2 +
+  countEight * 2 +
+  countNine * 2 +
+  countTen * 2 +
+  countEleven * 2 +
+  countTwelve * 2 +
+  countThirteen * 2 +
+  countFourteen;
+
+document.getElementById("iconTotal").innerHTML = "<strong>Total Icons:</strong> " + countTotal + "</h5>";
+
+// Load Icons
+var iconCategories,
+  i,
+  iconOutlineList = "";
+for (i in iconCategories) {
+  iconOutlineList += '<div class="p-t-3" id="' + iconCategories[i].id + '">';
+  iconOutlineList += '<h3 class="m-b-2">' + iconCategories[i].name + "</h3>";
+  iconOutlineList += '<div class="row">';
+  for (j in iconCategories[i].icons) {
+    iconOutlineList +=
+      '<a data-search-query="' +
+      iconCategories[i].icons[j] +
+      '" href="#' +
+      iconCategories[i].icons[j] +
+      '" class="icon-box flex flex-column is-secondary">';
+    iconOutlineList +=
+      '<span class="is-medium d-icon d-' +
+      iconCategories[i].icons[j] +
+      '"></span>';
+    iconOutlineList += "<h6>" + iconCategories[i].icons[j] + "</h6></a>";
+  }
+  iconOutlineList += "</div></div>";
+}
+
+// Load Outline Icons and Catalog list
+document.getElementById("iconContainer").innerHTML = iconOutlineList;
+
+// Toggle Solid
+function solidIcons() {
+  if (document.getElementById("solidButton").classList.contains("is-active")) {
+  } else {
+    document.getElementById("solidButton").classList.add("is-active");
+    document.getElementById("outlineButton").classList.remove("is-active");
+    var icons, i;
+    icons = document.querySelectorAll(".is-medium.d-icon");
+    for (i = 0; i < icons.length; i++) {
+      icons[i].className += "-solid";
+    }
+    var iconsHref = document.querySelectorAll(".icon-box.flex.flex-column.is-secondary");
+    for (i = 0; i < iconsHref.length; i++) {
+      iconsHref[i].href = iconsHref[i].href + "-solid";
+    }
   }
 }
 
-function myFunction() {
-  document.getElementById("downloadModal").classList.add("show");
-  populateDownloadModal(this.id);
+// Toggle Outline
+function outlineIcons() {
+  if (document.getElementById("outlineButton").classList.contains("is-active")) {
+  } else {
+    document.getElementById("outlineButton").classList.add("is-active");
+    document.getElementById("solidButton").classList.remove("is-active");
+    var icons, i;
+    icons = document.querySelectorAll(".is-medium.d-icon");
+    for (i = 0; i < icons.length; i++) {
+      icons[i].className = icons[i].className.replace("-solid", "");
+    }
+    var iconsHref = document.querySelectorAll(".icon-box.flex.flex-column.is-secondary");
+    for (i = 0; i < iconsHref.length; i++) {
+      iconsHref[i].href = iconsHref[i].href.replace("-solid", "");
+    }
+  }
 }
 
+// Toggle solid and outline icons for accessibility
+document.getElementById("solidButton").addEventListener("keyup", function(event){
+  if (event.keyCode === 13) {
+    solidIcons();
+  }
+});
+document.getElementById("outlineButton").addEventListener("keyup", function(event){
+  if (event.keyCode === 13) {
+    outlineIcons();
+  }
+});
+
+// Watch for hash change in URL
+window.addEventListener("hashchange", toggleDownloadModal, false);
+
+// Show download modal
+function toggleDownloadModal() {
+  document.getElementById("downloadModal").classList.add("show");
+  populateDownloadModal(window.location.hash.substr(1));
+}
+
+// Populate download modal
 function populateDownloadModal(icon) {
-  // alert(this.id);
   var iconName = icon;
   var downloadGroup =
     '<div class="input"><input type="text" value="d-' +
@@ -164,9 +199,10 @@ function populateDownloadModal(icon) {
   document.getElementById("downloadGroup").innerHTML = downloadGroup;
 }
 
-// Hide Download Modal
+// Hide Download Modal and clear hash
 function hide() {
   document.getElementById("downloadModal").classList.remove("show");
+  history.pushState("", document.title, window.location.pathname + window.location.search);
 }
 
 // Download modal reveal if url has hash
@@ -206,7 +242,6 @@ search.addEventListener("input", titleRemove, true);
 function titleRemove() {
   var c = document.querySelectorAll("#iconContainer > *");
   var i;
-
   for (i = 0; i < c.length; i++) {
     var txt = c[i].id;
     var count = document.getElementById(c[i].id).querySelectorAll("div a")
@@ -214,12 +249,9 @@ function titleRemove() {
     var hideCount = document
       .getElementById(c[i].id)
       .querySelectorAll("div a.hide").length;
-
     if (count === hideCount) {
-      // console.log(c[i].id + " will hide");
       document.getElementById(c[i].id).classList.add("hide");
     } else {
-      // console.log(c[i].id + " will not hide");
       document.getElementById(c[i].id).classList.remove("hide");
     }
   }
@@ -227,20 +259,14 @@ function titleRemove() {
 
 // Event listener for search input
 search.addEventListener("input", noResults, true);
-
 function noResults() {
   var containerCount = document.querySelectorAll("#iconContainer > div").length;
   var containerCountHidden = document.querySelectorAll(
     "#iconContainer > div.hide"
   ).length;
-
-  console.log(containerCount + " " + containerCountHidden);
-
   if (containerCount === containerCountHidden) {
-    // console.log("display code");
     document.getElementById("noResults").classList.remove("hide");
   } else {
-    // console.log("false");
     document.getElementById("noResults").classList.add("hide");
   }
 }
@@ -261,54 +287,4 @@ function newIconChips() {
       }
     }
   }
-}
-
-var countOne = iconCategories[0].icons.length;
-var countTwo = iconCategories[1].icons.length;
-var countThree = iconCategories[2].icons.length;
-var countFour = iconCategories[3].icons.length;
-var countFive = iconCategories[4].icons.length;
-var countSix = iconCategories[5].icons.length;
-var countSeven = iconCategories[6].icons.length;
-var countEight = iconCategories[7].icons.length;
-var countNine = iconCategories[8].icons.length;
-var countTen = iconCategories[9].icons.length;
-var countEleven = iconCategories[10].icons.length;
-var countTwelve = iconCategories[11].icons.length;
-var countThirteen = iconCategories[12].icons.length;
-var countFourteen = iconCategories[13].icons.length;
-
-var countTotal =
-  countOne * 2 +
-  countTwo * 2 +
-  countThree * 2 +
-  countFour * 2 +
-  countFive * 2 +
-  countSix * 2 +
-  countSeven * 2 +
-  countEight * 2 +
-  countNine * 2 +
-  countTen * 2 +
-  countEleven * 2 +
-  countTwelve * 2 +
-  countThirteen * 2 +
-  countFourteen;
-
-console.log(countTotal);
-
-document.getElementById("iconTotal").innerHTML =
-  "<strong>Total Icons:</strong> " + countTotal + "</h5>";
-
-// var count = Object.keys(iconCategories).length;
-
-
-function darkMode() {
-   var element = document.getElementsByTagName("BODY")[0];
-   element.classList.toggle("denali-dark-theme");
-}
-
-document.getElementById('navToggle').addEventListener("click", toggleMenu);
-
-function toggleMenu() {
-  document.getElementById('navMenuContent').classList.toggle("is-active");
 }
