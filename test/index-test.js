@@ -13,7 +13,7 @@ describe('index', function() {
       assert.match(denali.getFilePath('build/svg/uEA02-5g.svg'), /denali-icon-font\/build\/svg\/uEA02-5g.svg$/);
 
       const path = denali.getFilePath('build/svg/uEA02-5g.svg');
-      assert.match(fs.readFileSync(path, 'utf8'), /<title>npm<\/title>/);
+      assert.match(fs.readFileSync(path, 'utf8'), /<title>5g<\/title>/);
     });
   });
 });
