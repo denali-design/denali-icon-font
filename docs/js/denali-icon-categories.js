@@ -690,6 +690,7 @@ iconCategories = [
       "ember",
       "facebook",
       "github",
+      "gitter",
       "go-green",
       "golang",
       "google",

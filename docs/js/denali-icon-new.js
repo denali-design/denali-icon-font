@@ -31,6 +31,7 @@ newIcons = [
   "drag",
   "gift-solid",
   "gift",
+  "gitter",
   "hint-i-solid",
   "hint-i",
   "line-wrapping-solid",
