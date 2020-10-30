@@ -4,8 +4,7 @@
 var gulp = require("gulp"),
   consolidate = require("gulp-consolidate"),
   iconfont = require("gulp-iconfont"),
-  zip = require("gulp-zip"),
-  image = require("gulp-image");
+  zip = require("gulp-zip");
 
 gulp.task("iconfont", function() {
   return gulp
@@ -14,8 +13,7 @@ gulp.task("iconfont", function() {
       iconfont({
         fontName: "denali-icon-font",
         formats: ["ttf", "svg", "eot", "woff"],
-        appendCodepoints: true,
-        appendUnicode: false,
+        prependUnicode: true,
         normalize: true,
         fontHeight: 1000
       })
@@ -32,17 +30,13 @@ gulp.task("iconfont", function() {
         )
         .pipe(gulp.dest("dist"));
 
-      gulp.src("build/svg/*.svg").pipe(gulp.dest("docs/downloads/svg"));
-
       gulp
-        .src("build/svg/*")
+        .src("docs/downloads/svg/*")
         .pipe(zip("denali-icon-svg.zip"))
         .pipe(gulp.dest("docs/downloads"));
 
-      gulp.src("build/png/*.png").pipe(gulp.dest("docs/downloads/png"));
-
       gulp
-        .src("build/png/*")
+        .src("docs/downloads/png/*")
         .pipe(zip("denali-icon-png.zip"))
         .pipe(gulp.dest("docs/downloads"));
 
@@ -51,17 +45,6 @@ gulp.task("iconfont", function() {
         .pipe(zip("denali-icon-font.zip"))
         .pipe(gulp.dest("docs/downloads"));
 
-      // gulp.src('build/svg/*')
-      //     .pipe(image())
-      //     .pipe(gulp.dest('docs/downloads/png'));
-
-      // gulp.src('build/denali-icon-names.js')
-      //     .pipe(consolidate('underscore', {
-      //         glyphs: glyphs,
-      //         fontName: options.fontName,
-      //         svgCode:
-      //     }))
-      //     .pipe(gulp.dest('docs/js'));
     })
     .pipe(gulp.dest("dist"));
 });

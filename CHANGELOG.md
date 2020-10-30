@@ -1,5 +1,52 @@
 # Changelog
 
+## v1.7.0 - Oct. 30 2020
+
+#### New Icons
+- ascending-bars
+- ascending-bars-solid
+- card-american-express-solid
+- card-american-express
+- card-apple-pay-solid
+- card-apple-pay
+- card-mastercard-solid
+- card-mastercard
+- card-paypal-solid
+- card-paypal
+- card-visa-solid
+- card-visa
+- cash-payment-solid
+- cash-payment
+- coupon-solid
+- coupon
+- descending-bars-solid
+- descending-bars
+- drag-solid
+- drag
+- gift-solid
+- gift
+- gitter
+- hint-i-solid
+- hint-i
+- line-wrapping-solid
+- line-wrapping
+- question-mark-solid
+- question-mark
+- rewards-solid
+- rewards
+- snapchat
+- voucher-solid
+- voucher
+- whatsapp
+- yubikey-solid
+- yubikey
+
+#### Updated
+- descending-z-a-solid
+- descending-z-a
+
+---
+
 ## v1.5.0 - Jul. 29 2020
 
 #### Control & Navigation
