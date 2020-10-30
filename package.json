@@ -4,7 +4,7 @@
   "author": "Chas Turansky",
   "description": "Denali CSS Framework",
   "private": false,
-  "license": "OFL",
+  "license": "OFL-1.1",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
