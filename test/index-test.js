@@ -10,10 +10,10 @@ describe('index', function() {
       assert.match(denali.getFilePath('./'), /\/denali-icon-font$/);
       assert.match(denali.getFilePath('dist/'), /\/denali-icon-font\/dist$/);
       assert.match(denali.getFilePath('dist/denali-icon-font.css'), /denali-icon-font\/dist\/denali-icon-font.css$/);
-      assert.match(denali.getFilePath('build/svg/npm.svg'), /denali-icon-font\/build\/svg\/npm.svg$/);
+      assert.match(denali.getFilePath('build/svg/uEA02-5g.svg'), /denali-icon-font\/build\/svg\/uEA02-5g.svg$/);
 
-      const path = denali.getFilePath('build/svg/npm.svg');
-      assert.match(fs.readFileSync(path, 'utf8'), /<title>npm<\/title>/);
+      const path = denali.getFilePath('build/svg/uEA02-5g.svg');
+      assert.match(fs.readFileSync(path, 'utf8'), /<title>5g<\/title>/);
     });
   });
 });
