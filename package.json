@@ -1,6 +1,6 @@
 {
   "name": "denali-icon-font",
-  "version": "1.2.0",
+  "version": "1.7.0",
   "author": "Chas Turansky",
   "description": "Denali CSS Framework",
   "private": false,
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "mocha",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "iconfont": "gulp iconfont"
+    "build": "gulp iconfont"
   },
   "repository": {
     "type": "git",
