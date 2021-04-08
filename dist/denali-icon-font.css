@@ -5,11 +5,11 @@
 /* denali-icon-font Webfont */
 @font-face {
  font-family: 'denali-icon-font';
- src: url('denali-icon-font.eot?1604081315619');
- src: url('denali-icon-font.eot?#iefix-1604081315619') format('embedded-opentype'),
-  url('denali-icon-font.svg?1604081315619') format('svg'),
-  url('denali-icon-font.woff?1604081315619') format('woff'),
-  url('denali-icon-font.ttf?1604081315619') format('truetype');
+ src: url('denali-icon-font.eot?1617868027209');
+ src: url('denali-icon-font.eot?#iefix-1617868027209') format('embedded-opentype'),
+  url('denali-icon-font.svg?1617868027209') format('svg'),
+  url('denali-icon-font.woff?1617868027209') format('woff'),
+  url('denali-icon-font.ttf?1617868027209') format('truetype');
  font-weight: normal;
  font-style: normal;
 }
@@ -4959,4 +4959,148 @@
 
 .d-yubikey:before {
  content: '\eee5';
+}
+
+.d-delivery-fast:before {
+ content: '\eee6';
+}
+
+.d-delivery-schedule:before {
+ content: '\eee7';
+}
+
+.d-delivery:before {
+ content: '\eee8';
+}
+
+.d-magic-wand:before {
+ content: '\eee9';
+}
+
+.d-network-base:before {
+ content: '\eef0';
+}
+
+.d-open-data-network:before {
+ content: '\eef1';
+}
+
+.d-secret-question:before {
+ content: '\eef2';
+}
+
+.d-user-lock:before {
+ content: '\eef3';
+}
+
+.d-user-reviewed:before {
+ content: '\eef4';
+}
+
+.d-user-setting:before {
+ content: '\eef5';
+}
+
+.d-user-unlock:before {
+ content: '\eef6';
+}
+
+.d-delivery-fast-solid:before {
+ content: '\eef7';
+}
+
+.d-delivery-schedule-solid:before {
+ content: '\eef8';
+}
+
+.d-delivery-solid:before {
+ content: '\eef9';
+}
+
+.d-network-base-solid:before {
+ content: '\eff0';
+}
+
+.d-open-data-network-solid:before {
+ content: '\eff1';
+}
+
+.d-secret-question-solid:before {
+ content: '\eff2';
+}
+
+.d-user-setting-solid:before {
+ content: '\eff3';
+}
+
+.d-magic-wand-solid:before {
+ content: '\eff4';
+}
+
+.d-user-lock-solid:before {
+ content: '\eff5';
+}
+
+.d-user-reviewed-solid:before {
+ content: '\eff6';
+}
+
+.d-user-unlock-solid:before {
+ content: '\eff7';
+}
+
+.d-discord:before {
+ content: '\eff8';
+}
+
+.d-password-lock:before {
+ content: '\eff9';
+}
+
+.d-password-field:before {
+ content: '\ffa0';
+}
+
+.d-password-field-solid:before {
+ content: '\ffa1';
+}
+
+.d-recovery-plus:before {
+ content: '\ffa2';
+}
+
+.d-recovery-plus-solid:before {
+ content: '\ffa3';
+}
+
+.d-recovery-shield:before {
+ content: '\ffa4';
+}
+
+.d-recovery-shield-solid:before {
+ content: '\ffa5';
+}
+
+.d-figma:before {
+ content: '\fff9';
+}
+
+.d-framer:before {
+ content: '\fffa';
+}
+
+.d-sketch:before {
+ content: '\fffb';
+}
+
+.d-abstract:before {
+ content: '\fffc';
+}
+
+.d-adobe-xd:before {
+ content: '\fffd';
+}
+
+.d-password-lock-solid:before {
+ content: '\ffff';
 }

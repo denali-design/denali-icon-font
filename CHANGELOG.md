@@ -1,5 +1,47 @@
 # Changelog
 
+## v1.8.0 - Apr. 9 2021 - This is the last release for the Denali Icon Font
+
+#### New Icons
+- password-field-solid
+- abstract
+- adobe-xd
+- delivery-fast-solid
+- delivery-fast
+- delivery-schedule-solid
+- delivery-schedule
+- delivery-solid
+- delivery
+- discord
+- figma
+- framer
+- magic-wand-solid
+- magic-wand
+- network-base-solid
+- network-base
+- open-data-network-solid
+- open-data-network
+- password-field
+- password-lock-solid
+- password-lock
+- recovery-plus-solid
+- recovery-plus
+- recovery-shield-solid
+- recovery-shield
+- secret-question-solid
+- secret-question
+- sketch
+- user-lock-solid
+- user-lock
+- user-reviewed-solid
+- user-reviewed
+- user-setting-solid
+- user-setting
+- user-unlock-solid
+- user-unlock
+
+---
+
 ## v1.7.0 - Oct. 30 2020
 
 #### New Icons
