@@ -304,6 +304,8 @@ iconCategories = [
       "pipeline",
       "queue",
       "reroute",
+      "network-base",
+      "open-data-network",
       "tree-structure"
     ]
   },
@@ -515,7 +517,7 @@ iconCategories = [
       "virus",
       "viruses"
     ]
-  }, 
+  },
   {
     name: "Horoscope",
     id: "horoscope",
@@ -562,6 +564,15 @@ iconCategories = [
       "user-profile-circle",
       "user-secure",
       "user-single",
+      "user-lock",
+      "user-reviewed",
+      "user-setting",
+      "user-unlock",
+      "password-field",
+      "password-lock",
+      "recovery-plus",
+      "recovery-shield",
+      "secret-question",
       "contacts"
     ]
   },
@@ -663,7 +674,11 @@ iconCategories = [
       "value-maximum",
       "value-minimum",
       "value-sum",
-      "voucher"
+      "voucher",
+      "magic-wand",
+      "delivery-fast",
+      "delivery-schedule",
+      "delivery"
     ]
   },
   {
@@ -721,6 +736,12 @@ iconCategories = [
       "yamas",
       "youtube",
       "whatsapp",
+      "abstract",
+      "adobe-xd",
+      "discord",
+      "figma",
+      "framer",
+      "sketch"
     ]
   }
 ];
